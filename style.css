@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+body {
+  background: hsl(0, 0%, 95%);
+  margin-top: 150px;
+}
+
+h1,
+p {
+  color: hsl(0, 0%, 95%);
+}
+
+h1 {
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 45px;
+}
+
+p {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  margin-bottom: 90px;
+}
+
+button {
+  font-family: 'Lexend Deca', sans-serif;
+  background: hsl(0, 0%, 95%);
+  border: 1px solid transparent;
+  padding: 15px 30px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+img {
+  width: 45px;
+}
+
+
+
+/* This container is going to hold all the cards in one box */
+#container {
+  display: flex;
+  margin: 15px auto;
+  width: 900px;
+  padding: 25px;
+}
+
+/* This is for box one in orange */
+
+.card-one {
+  background: hsl(31, 77%, 52%);
+  padding: 50px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+
+/* This is for box two */
+
+.card-two {
+  background: hsl(184, 100%, 22%);
+  padding: 50px;
+}
+
+
+/* This is for card three */
+
+.card-three {
+  background: hsl(179, 100%, 13%);
+  padding: 50px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+
+
+
+ /* This is to color the buttons */
+
+ .btn-one {
+  color: hsl(31, 77%, 52%);
+}
+
+ .btn-two {
+  color: hsl(184, 100%, 22%);
+}
+
+ .btn-three {
+  color: hsl(179, 100%, 13%);
+}
+
+  /* This is to color the buttons in hover status */
+
+.btn-one:hover,
+.btn-one:focus {
+  background: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+  border: 1px solid hsl(0, 0%, 95%);
+}
+  
+.btn-two:hover,
+.btn-two:focus {
+  background: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+  border: 1px solid hsl(0, 0%, 95%);
+}
+  
+.btn-three:hover,
+.btn-three:focus { 
+  background: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+  border: 1px solid hsl(0, 0%, 95%);
+}
+
+
+.attribution {
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+}
